@@ -1,2 +1,2 @@
-# vietnam-localities
-Viet Nam Localities Database
+# Vietnam Localities
+Vietnam Localities Database

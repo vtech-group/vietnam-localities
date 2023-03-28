@@ -1,0 +1,34 @@
+{
+    "name": "vtech/vietnam-localities",
+    "description": "Vietnam Localities Database",
+    "keywords": ["vtech", "laravel", "database", "localities", "vietnam"],
+    "license": "MIT",
+    "homepage": "https://vtechweb.com",
+    "authors": [
+        {
+            "name": "Jackie Do",
+            "email": "anhvudo@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.3",
+        "illuminate/console": "^5.8|^6.0|^7.0|^8.0|^9.0|^10.0",
+        "illuminate/database": "^5.8|^6.0|^7.0|^8.0|^9.0|^10.0",
+        "illuminate/support": "^5.8|^6.0|^7.0|^8.0|^9.0|^10.0",
+        "guzzlehttp/guzzle": "^6.3.1|^7.0|^8",
+        "maatwebsite/excel": "^3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vtech\\VietnamLocalities\\": "src/app/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vtech\\VietnamLocalities\\ServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
+}
