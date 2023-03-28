@@ -22,7 +22,7 @@ class CreateDistrictsTable extends Migration
             $table->foreign('province_id')
                 ->references('id')
                 ->on('provinces')
-                ->cascadeOnDelete();
+                ->onDelete('cascade');
         });
     }
 

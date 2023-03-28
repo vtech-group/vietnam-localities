@@ -22,7 +22,7 @@ class CreateWardsTable extends Migration
             $table->foreign('district_id')
                 ->references('id')
                 ->on('districts')
-                ->cascadeOnDelete();
+                ->onDelete('cascade');
         });
     }
 
